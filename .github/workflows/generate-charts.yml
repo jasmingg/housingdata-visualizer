@@ -26,11 +26,11 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Generate charts
+      - name: Generate charts & Validate API env
         env:
-          API: ${{ secrets.API_URL }}
+          API: ${{ secrets.API_URL || vars.API_URL}}
         run: |
-          python scripts/generate_charts.py
+          python generate_charts.py
 
       - name: Commit and push changes (if any)
         run: |
