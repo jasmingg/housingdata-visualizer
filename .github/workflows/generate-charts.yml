@@ -26,12 +26,22 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Generate charts & Validate API env
+      - name: Validate API env & generate charts
         env:
           API: ${{ secrets.API_URL || vars.API_URL}}
         run: |
           python generate_charts.py
 
+      - name: Copy charts into docs for Pages (static page link) from github
+        run: |
+          mkdir -p docs/charts
+          cp -f public/charts/*.svg docs/charts/ || true
+          echo '<h1>Housing Charts</h1><ul>' > docs/index.html
+          for f in docs/charts/*.svg; do
+            name=$(basename "$f")
+            echo <li><a href='charts/$name'>$name</a></li>" >> docs/index.html
+          done
+          echo '</ul>' >> docs/index.html
       - name: Commit and push changes (if any)
         run: |
           if [ -n "$(git status --porcelain)" ]; then
