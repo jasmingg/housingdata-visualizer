@@ -9,8 +9,8 @@ API = os.getenv("API") # link to back-end
 if not API:
    raise RuntimeError("Missing API env var. Set API in Github Actions (or locally) before running.")
 
-OUT_DIR = os.path.join("public", "charts")
-os.makedirs(OUT_DIR, exist_ok=True)
+OUT_DIR = os.path.join("docs", "charts")
+os.makedirs(OUT_DIR, exist_ok=True) # creates a folder for docs/charts, ignores if already existing
 
 # customize the palette
 COLORS = ["#374151", "#10B981", "#3B82F6"]  # charcoal, teal, blue
@@ -144,10 +144,24 @@ def render_and_save(data: dict, state_name: str, state_code: str, metro: int):
     fig.subplots_adjust(top=0.85, bottom=0.14, wspace=0.32)
 
     base = f"housing_burden_{state_code}_metro{metro}_latest"
-    svg_path = os.path.join(OUT_DIR, base + ".svg")
-    fig.savefig(svg_path, bbox_inches="tight")
+    svg_path = os.path.join(OUT_DIR, f"{base}.svg")
+    png_path = os.path.join(OUT_DIR, f"{base}.png")
+
+    try:
+        fig.savefig(svg_path, format="svg", bbox_inches="tight")
+        print(f"✅ Saved {svg_path}")
+    except Exception as e:
+        print(f"⚠️ SVG failed for {svg_path}: {e}")
+        print(f"🖼️ Trying PNG fallback...")
+        try:
+            fig.savefig(png_path, format="png", bbox_inches="tight", dpi=200)
+            print(f"✅ PNG saved: {png_path}")
+        except Exception as e2:
+            print(f"❌ Failed both SVG and PNG for {base}: {e2}")
+
+
     plt.close(fig)
-    print("Wrote:", svg_path)
+
 
 def main():
     for state in STATES:
