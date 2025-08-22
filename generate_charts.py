@@ -4,6 +4,7 @@ matplotlib.use("Agg")  # headless
 import matplotlib.pyplot as plt
 from datetime import datetime
 from zoneinfo import ZoneInfo
+import time
 
 API = os.getenv("API") # link to back-end
 if not API:
@@ -164,8 +165,14 @@ def render_and_save(data: dict, state_name: str, state_code: str, metro: int):
 
 
 def main():
+    count = 0
     for state in STATES:
       for metro in METROS:
+        count += 1
+        # necessary for avoiding rate-limiting client error from Java 
+        if count % 30 == 0:  # every 30 requests
+            print("⏳ Waiting to avoid 429...")
+            time.sleep(35)  # wait ~35 seconds to stay under 60/min
         try:
           data = fetch(state, metro)
           code = STATE_CODES[state]

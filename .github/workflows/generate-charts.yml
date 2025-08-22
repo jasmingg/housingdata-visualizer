@@ -1,6 +1,11 @@
 name: Generate housing burden charts
 
 on:
+  push:
+    paths:
+      - '**.py'
+      - requirements.txt
+      - .github/workflows/generate_charts.yml
   workflow_dispatch:          # run manually from the Actions tab
   schedule:
     - cron: "0 12 * * 1"      # Mondays 12:00 UTC (~8 AM ET)
