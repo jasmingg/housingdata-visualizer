@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2025-08-25T12:50:00.938200</dc:date>
+    <dc:date>2025-09-01T12:49:08.474017</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -971,7 +971,7 @@ z
    </g>
   </g>
   <g id="text_16">
-   <!-- central city in michigan · github/jasmingg · Built: 2025-08-25 08:50 EDT -->
+   <!-- central city in michigan · github/jasmingg · Built: 2025-09-01 08:49 EDT -->
    <g transform="translate(83.675574 281.808281) scale(0.09 -0.09)">
     <defs>
      <path id="DejaVuSans-63" d="M 3122 3366 
@@ -1265,16 +1265,16 @@ z
     <use xlink:href="#DejaVuSans-35" x="2661.328125"/>
     <use xlink:href="#DejaVuSans-2d" x="2724.951172"/>
     <use xlink:href="#DejaVuSans-30" x="2761.035156"/>
-    <use xlink:href="#DejaVuSans-38" x="2824.658203"/>
+    <use xlink:href="#DejaVuSans-39" x="2824.658203"/>
     <use xlink:href="#DejaVuSans-2d" x="2888.28125"/>
-    <use xlink:href="#DejaVuSans-32" x="2924.365234"/>
-    <use xlink:href="#DejaVuSans-35" x="2987.988281"/>
+    <use xlink:href="#DejaVuSans-30" x="2924.365234"/>
+    <use xlink:href="#DejaVuSans-31" x="2987.988281"/>
     <use xlink:href="#DejaVuSans-20" x="3051.611328"/>
     <use xlink:href="#DejaVuSans-30" x="3083.398438"/>
     <use xlink:href="#DejaVuSans-38" x="3147.021484"/>
     <use xlink:href="#DejaVuSans-3a" x="3210.644531"/>
-    <use xlink:href="#DejaVuSans-35" x="3244.335938"/>
-    <use xlink:href="#DejaVuSans-30" x="3307.958984"/>
+    <use xlink:href="#DejaVuSans-34" x="3244.335938"/>
+    <use xlink:href="#DejaVuSans-39" x="3307.958984"/>
     <use xlink:href="#DejaVuSans-20" x="3371.582031"/>
     <use xlink:href="#DejaVuSans-45" x="3403.369141"/>
     <use xlink:href="#DejaVuSans-44" x="3466.552734"/>
