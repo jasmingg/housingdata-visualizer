@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2025-10-27T12:52:37.823443</dc:date>
+    <dc:date>2025-11-03T12:52:18.950069</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -982,8 +982,8 @@ z
    </g>
   </g>
   <g id="text_16">
-   <!-- central city in tennessee · github/jasmingg · Built: 2025-10-27 08:52 EDT -->
-   <g transform="translate(82.37412 281.808281) scale(0.09 -0.09)">
+   <!-- central city in tennessee · github/jasmingg · Built: 2025-11-03 07:52 EST -->
+   <g transform="translate(82.982323 281.808281) scale(0.09 -0.09)">
     <defs>
      <path id="DejaVuSans-63" d="M 3122 3366 
 L 3122 2828 
@@ -1191,6 +1191,37 @@ L 628 0
 L 628 4666 
 z
 " transform="scale(0.015625)"/>
+     <path id="DejaVuSans-53" d="M 3425 4513 
+L 3425 3897 
+Q 3066 4069 2747 4153 
+Q 2428 4238 2131 4238 
+Q 1616 4238 1336 4038 
+Q 1056 3838 1056 3469 
+Q 1056 3159 1242 3001 
+Q 1428 2844 1947 2747 
+L 2328 2669 
+Q 3034 2534 3370 2195 
+Q 3706 1856 3706 1288 
+Q 3706 609 3251 259 
+Q 2797 -91 1919 -91 
+Q 1588 -91 1214 -16 
+Q 841 59 441 206 
+L 441 856 
+Q 825 641 1194 531 
+Q 1563 422 1919 422 
+Q 2459 422 2753 634 
+Q 3047 847 3047 1241 
+Q 3047 1584 2836 1778 
+Q 2625 1972 2144 2069 
+L 1759 2144 
+Q 1053 2284 737 2584 
+Q 422 2884 422 3419 
+Q 422 4038 858 4394 
+Q 1294 4750 2059 4750 
+Q 2388 4750 2728 4690 
+Q 3069 4631 3425 4513 
+z
+" transform="scale(0.015625)"/>
     </defs>
     <use xlink:href="#DejaVuSans-63"/>
     <use xlink:href="#DejaVuSans-65" x="54.980469"/>
@@ -1251,20 +1282,20 @@ z
     <use xlink:href="#DejaVuSans-35" x="2718.115234"/>
     <use xlink:href="#DejaVuSans-2d" x="2781.738281"/>
     <use xlink:href="#DejaVuSans-31" x="2817.822266"/>
-    <use xlink:href="#DejaVuSans-30" x="2881.445312"/>
+    <use xlink:href="#DejaVuSans-31" x="2881.445312"/>
     <use xlink:href="#DejaVuSans-2d" x="2945.068359"/>
-    <use xlink:href="#DejaVuSans-32" x="2981.152344"/>
-    <use xlink:href="#DejaVuSans-37" x="3044.775391"/>
+    <use xlink:href="#DejaVuSans-30" x="2981.152344"/>
+    <use xlink:href="#DejaVuSans-33" x="3044.775391"/>
     <use xlink:href="#DejaVuSans-20" x="3108.398438"/>
     <use xlink:href="#DejaVuSans-30" x="3140.185547"/>
-    <use xlink:href="#DejaVuSans-38" x="3203.808594"/>
+    <use xlink:href="#DejaVuSans-37" x="3203.808594"/>
     <use xlink:href="#DejaVuSans-3a" x="3267.431641"/>
     <use xlink:href="#DejaVuSans-35" x="3301.123047"/>
     <use xlink:href="#DejaVuSans-32" x="3364.746094"/>
     <use xlink:href="#DejaVuSans-20" x="3428.369141"/>
     <use xlink:href="#DejaVuSans-45" x="3460.15625"/>
-    <use xlink:href="#DejaVuSans-44" x="3523.339844"/>
-    <use xlink:href="#DejaVuSans-54" x="3600.341797"/>
+    <use xlink:href="#DejaVuSans-53" x="3523.339844"/>
+    <use xlink:href="#DejaVuSans-54" x="3586.816406"/>
    </g>
   </g>
  </g>
