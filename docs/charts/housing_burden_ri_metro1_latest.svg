@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2025-12-22T12:53:37.049824</dc:date>
+    <dc:date>2025-12-29T12:55:47.028746</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -587,8 +587,8 @@ z
    </g>
    <g id="patch_6">
     <path d="M 439.096301 226.995883 
-C 455.413468 221.356232 469.533539 210.692574 479.422438 196.541058 
-C 489.311337 182.389542 494.470285 165.463973 494.156109 148.202539 
+C 455.413473 221.356227 469.533534 210.692578 479.422438 196.541058 
+C 489.311342 182.38954 494.470285 165.463976 494.156109 148.202539 
 L 412.377652 149.691002 
 z
 " style="fill: #10b981"/>
@@ -971,7 +971,7 @@ z
    </g>
   </g>
   <g id="text_16">
-   <!-- central city in rhode island · github/jasmingg · Built: 2025-12-22 07:53 EST -->
+   <!-- central city in rhode island · github/jasmingg · Built: 2025-12-29 07:55 EST -->
    <g transform="translate(88.724207 281.808281) scale(0.09 -0.09)">
     <defs>
      <path id="DejaVuSans-63" d="M 3122 3366 
@@ -1264,13 +1264,13 @@ z
     <use xlink:href="#DejaVuSans-32" x="2981.697266"/>
     <use xlink:href="#DejaVuSans-2d" x="3045.320312"/>
     <use xlink:href="#DejaVuSans-32" x="3081.404297"/>
-    <use xlink:href="#DejaVuSans-32" x="3145.027344"/>
+    <use xlink:href="#DejaVuSans-39" x="3145.027344"/>
     <use xlink:href="#DejaVuSans-20" x="3208.650391"/>
     <use xlink:href="#DejaVuSans-30" x="3240.4375"/>
     <use xlink:href="#DejaVuSans-37" x="3304.060547"/>
     <use xlink:href="#DejaVuSans-3a" x="3367.683594"/>
     <use xlink:href="#DejaVuSans-35" x="3401.375"/>
-    <use xlink:href="#DejaVuSans-33" x="3464.998047"/>
+    <use xlink:href="#DejaVuSans-35" x="3464.998047"/>
     <use xlink:href="#DejaVuSans-20" x="3528.621094"/>
     <use xlink:href="#DejaVuSans-45" x="3560.408203"/>
     <use xlink:href="#DejaVuSans-53" x="3623.591797"/>
